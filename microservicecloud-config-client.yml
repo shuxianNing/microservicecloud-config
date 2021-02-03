@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: microservicecloud-config-client8001
+    name: microservicecloud-config-client-1
 eureka:
   client:
     service-url:
@@ -19,7 +19,7 @@ server:
 spring:
   profiles: test
   application:
-    name: microservicecloud-config-client8002
+    name: microservicecloud-config-client-2
 eureka:
   client:
     service-url:
